@@ -70,6 +70,8 @@ class Selecta
 
   # On each keystroke, generate a new search object
   def handle_key(search, key)
+    p key
+    raise SystemExit
     case key
 
     when KEY_CTRL_N then search.down
