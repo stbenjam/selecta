@@ -334,8 +334,8 @@ class Score
                      end
                    end
       end
-      scores = [boundary, non_boundary].compact
-      scores.min
+
+      [boundary, non_boundary].compact.min
     end
   end
 end
